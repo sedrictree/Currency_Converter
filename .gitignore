@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Файл с историей конвертаций пользователя
+conversion_history.json
+
+# Кэш и служебные файлы Python
+__pycache__/
+*.pyc
+venv/
+env/
+dist/
+build/
+*.spec
+
+# Файлы настроек редакторов (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Системные файлы macOS/Windows
+.DS_Store
+Thumbs.db
